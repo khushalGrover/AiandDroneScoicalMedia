@@ -1,0 +1,64 @@
+/* styles.css */
+:root {
+	--background: #f0f0f0; /* Replace with your actual background color */
+	--accent: #ffcc00; /* Replace with your actual accent color */
+	--accent-foreground: #000000; /* Replace with your actual accent foreground color */
+}
+
+.container {
+    margin: 200px;
+	display: grid;
+	gap: 16px; /* Corresponds to gap-4 */
+}
+
+.title {
+	font-size: 1.5rem; /* Corresponds to text-2xl */
+	font-weight: bold; /* Corresponds to font-bold */
+}
+
+.links {
+	display: grid;
+	gap: 8px; /* Corresponds to gap-2 */
+}
+
+.link {
+    width: 150px;
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+	gap: 12px; /* Corresponds to gap-3 */
+	background-color: var(--background);
+	padding: 8px 16px; /* Corresponds to px-4 py-2 */
+	border-radius: 8px; /* Corresponds to rounded-md */
+	transition: background-color 0.2s, color 0.2s; /* Corresponds to transition-colors */
+}
+
+.link:hover {
+	background-color: var(--accent);
+	color: var(--accent-foreground);
+}
+
+.icon {
+	width: 24px;
+	height: 24px; /* Corresponds to h-6 w-6 */
+}
+
+.text-facebook {
+	color: #1877f2;
+}
+
+.text-twitter {
+	color: #1da1f2;
+}
+
+.text-instagram {
+	color: #e1306c;
+}
+
+.text-linkedin {
+	color: #0077b5;
+}
+
+.text-youtube {
+	color: #ff0000;
+}
